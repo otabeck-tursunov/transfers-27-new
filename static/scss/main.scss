@@ -11,7 +11,7 @@
   // overflow: hidden;
   .navbar {
     width: 100%;
-    background-color: purple;
+    background-color: darkgrey;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -78,7 +78,7 @@
       text-decoration: none;
       width: 380px;
       height: 140px;
-      background-color: purple;
+      background-color: darkgrey;
       border-radius: 6px;
       font-size: 40px;
       display: flex;
@@ -104,7 +104,7 @@
   padding-bottom: 10px;
   #title {
     font-size: 30px;
-    background-color: purple;
+    background-color: darkgrey;
     color: white;
     text-align: center;
     line-height: 40px;
@@ -135,7 +135,7 @@
     h3:hover {
       border-radius: 5px;
       padding-left: 10px;
-      background-color: purple;
+      background-color: darkgrey;
       a {
         color: white;
       }
@@ -151,7 +151,7 @@
   top: 70px;
   h2 {
     text-align: center;
-    color: purple;
+    color: darkgrey;
     line-height: 50px;
     padding-top: 30px;
     font-size: 22px;
@@ -183,7 +183,7 @@
       font-size: 18px;
       border-bottom: 2px solid rgb(255, 0, 0);
       text-align: center;
-      // border: 1px solid purple;
+      // border: 1px solid darkgrey;
       // text-align: center;
     }
   }
@@ -202,7 +202,7 @@
       font-size: 18px;
       border-bottom: 2px solid rgb(255, 0, 0);
       text-align: center;
-      // border: 1px solid purple;
+      // border: 1px solid darkgrey;
       // text-align: center;
     }
   }
@@ -269,7 +269,7 @@
     justify-content: space-between !important;
     td {
       width: 140px;
-      color: purple;
+      color: darkgrey;
       text-align: center;
     }
   }
@@ -285,21 +285,21 @@
   .club {
     width: 170px;
     height: 50px;
-    border-top: 2px solid purple;
-    border-bottom: 2px solid purple;
+    border-top: 2px solid darkgrey;
+    border-bottom: 2px solid darkgrey;
     transition: all 0.2s ease-in-out;
     &:hover {
       // box-shadow: 0 0 5px 5px lightblue;
       border: none;
       border-radius: 5px;
       background-color: lightblue;
-      border-left: 4px solid purple;
+      border-left: 4px solid darkgrey;
     }
     a {
       display: flex;
       align-items: center;
       &:hover {
-        color: purple !important;
+        color: darkgrey !important;
       }
       text-decoration: none;
       color: rgb(58, 74, 219);
@@ -345,7 +345,7 @@
 }
 .footer {
   width: 100%;
-  background-color: purple;
+  background-color: darkgrey;
   height: 80px;
   display: flex;
   align-items: center;
@@ -438,7 +438,7 @@
         padding: 0px 12px !important;
         color: white;
         &:hover {
-          background-color: purple;
+          background-color: darkgrey;
         }
       }
     }
@@ -460,7 +460,7 @@
     right: -100%;
   }
   .navbar-menu.active {
-    background-color: purple;
+    background-color: darkgrey;
     right: 0px;
   }
   .country-menu-btn {
